@@ -1,0 +1,106 @@
+ticker,exchange,company_name,sector,market_cap_category
+AAPL,NASDAQ,Apple Inc.,Technology,Large Cap
+MSFT,NASDAQ,Microsoft Corporation,Technology,Large Cap
+GOOGL,NASDAQ,Alphabet Inc.,Technology,Large Cap
+AMZN,NASDAQ,Amazon.com Inc.,Consumer Discretionary,Large Cap
+TSLA,NASDAQ,Tesla Inc.,Consumer Discretionary,Large Cap
+META,NASDAQ,Meta Platforms Inc.,Technology,Large Cap
+NVDA,NASDAQ,NVIDIA Corporation,Technology,Large Cap
+NFLX,NASDAQ,Netflix Inc.,Communication Services,Large Cap
+ADBE,NASDAQ,Adobe Inc.,Technology,Large Cap
+CRM,NASDAQ,Salesforce Inc.,Technology,Large Cap
+INTC,NASDAQ,Intel Corporation,Technology,Large Cap
+AMD,NASDAQ,Advanced Micro Devices,Technology,Large Cap
+QCOM,NASDAQ,Qualcomm Incorporated,Technology,Large Cap
+AVGO,NASDAQ,Broadcom Inc.,Technology,Large Cap
+CSCO,NASDAQ,Cisco Systems Inc.,Technology,Large Cap
+ORCL,NASDAQ,Oracle Corporation,Technology,Large Cap
+INTU,NASDAQ,Intuit Inc.,Technology,Large Cap
+ADP,NASDAQ,Automatic Data Processing,Technology,Large Cap
+MU,NASDAQ,Micron Technology Inc.,Technology,Large Cap
+KLAC,NASDAQ,KLA Corporation,Technology,Large Cap
+LRCX,NASDAQ,Lam Research Corporation,Technology,Large Cap
+ADI,NASDAQ,Analog Devices Inc.,Technology,Large Cap
+MCHP,NASDAQ,Microchip Technology Inc.,Technology,Large Cap
+SNPS,NASDAQ,Synopsys Inc.,Technology,Large Cap
+CDNS,NASDAQ,Cadence Design Systems,Technology,Large Cap
+MRVL,NASDAQ,Marvell Technology Inc.,Technology,Large Cap
+ASML,NASDAQ,ASML Holding N.V.,Technology,Large Cap
+NXPI,NASDAQ,NXP Semiconductors,Technology,Large Cap
+TXN,NASDAQ,Texas Instruments Inc.,Technology,Large Cap
+SWKS,NASDAQ,Skyworks Solutions Inc.,Technology,Large Cap
+QRVO,NASDAQ,Qorvo Inc.,Technology,Large Cap
+CRUS,NASDAQ,Cirrus Logic Inc.,Technology,Large Cap
+AMAT,NASDAQ,Applied Materials Inc.,Technology,Large Cap
+TER,NASDAQ,Teradyne Inc.,Technology,Large Cap
+LSCC,NASDAQ,Lattice Semiconductor,Technology,Large Cap
+XLNX,NASDAQ,Xilinx Inc.,Technology,Large Cap
+MXL,NASDAQ,MaxLinear Inc.,Technology,Large Cap
+SIMO,NASDAQ,Silicon Motion Technology,Technology,Large Cap
+SYNA,NASDAQ,Synaptics Incorporated,Technology,Large Cap
+IDTI,NASDAQ,Integrated Device Technology,Technology,Large Cap
+CY,NASDAQ,Cypress Semiconductor,Technology,Large Cap
+ON,NASDAQ,ON Semiconductor,Technology,Large Cap
+STM,NASDAQ,STMicroelectronics,Technology,Large Cap
+NXP,NASDAQ,NXP Semiconductors,Technology,Large Cap
+JPM,NYSE,JPMorgan Chase & Co.,Financial Services,Large Cap
+JNJ,NYSE,Johnson & Johnson,Healthcare,Large Cap
+PG,NYSE,Procter & Gamble Co.,Consumer Staples,Large Cap
+V,NYSE,Visa Inc.,Financial Services,Large Cap
+HD,NYSE,Home Depot Inc.,Consumer Discretionary,Large Cap
+DIS,NYSE,Walt Disney Co.,Communication Services,Large Cap
+PYPL,NYSE,PayPal Holdings Inc.,Financial Services,Large Cap
+PFE,NYSE,Pfizer Inc.,Healthcare,Large Cap
+ABT,NYSE,Abbott Laboratories,Healthcare,Large Cap
+KO,NYSE,Coca-Cola Co.,Consumer Staples,Large Cap
+PEP,NYSE,PepsiCo Inc.,Consumer Staples,Large Cap
+TMO,NYSE,Thermo Fisher Scientific,Healthcare,Large Cap
+COST,NYSE,Costco Wholesale Corp.,Consumer Staples,Large Cap
+WMT,NYSE,Walmart Inc.,Consumer Staples,Large Cap
+BAC,NYSE,Bank of America Corp.,Financial Services,Large Cap
+XOM,NYSE,Exxon Mobil Corporation,Energy,Large Cap
+CVX,NYSE,Chevron Corporation,Energy,Large Cap
+UNH,NYSE,UnitedHealth Group Inc.,Healthcare,Large Cap
+MA,NYSE,Mastercard Incorporated,Financial Services,Large Cap
+MRK,NYSE,Merck & Co. Inc.,Healthcare,Large Cap
+LLY,NYSE,Eli Lilly and Company,Healthcare,Large Cap
+T,NYSE,AT&T Inc.,Communication Services,Large Cap
+VZ,NYSE,Verizon Communications,Communication Services,Large Cap
+CMCSA,NYSE,Comcast Corporation,Communication Services,Large Cap
+ABBV,NYSE,AbbVie Inc.,Healthcare,Large Cap
+DHR,NYSE,Danaher Corporation,Healthcare,Large Cap
+ACN,NYSE,Accenture plc,Technology,Large Cap
+NEE,NYSE,NextEra Energy Inc.,Utilities,Large Cap
+UNP,NYSE,Union Pacific Corporation,Industrials,Large Cap
+RTX,NYSE,Raytheon Technologies,Industrials,Large Cap
+HON,NYSE,Honeywell International,Industrials,Large Cap
+LOW,NYSE,Lowe's Companies Inc.,Consumer Discretionary,Large Cap
+UPS,NYSE,United Parcel Service,Industrials,Large Cap
+CAT,NYSE,Caterpillar Inc.,Industrials,Large Cap
+IBM,NYSE,International Business Machines,Technology,Large Cap
+GS,NYSE,Goldman Sachs Group Inc.,Financial Services,Large Cap
+MS,NYSE,Morgan Stanley,Financial Services,Large Cap
+AXP,NYSE,American Express Company,Financial Services,Large Cap
+SPGI,NYSE,S&P Global Inc.,Financial Services,Large Cap
+PLD,NYSE,Prologis Inc.,Real Estate,Large Cap
+SCHW,NYSE,Charles Schwab Corporation,Financial Services,Large Cap
+TXN,NYSE,Texas Instruments Inc.,Technology,Large Cap
+USB,NYSE,U.S. Bancorp,Financial Services,Large Cap
+BLK,NYSE,BlackRock Inc.,Financial Services,Large Cap
+DE,NYSE,Deere & Company,Industrials,Large Cap
+GE,NYSE,General Electric Company,Industrials,Large Cap
+MMC,NYSE,Marsh & McLennan Companies,Financial Services,Large Cap
+TJX,NYSE,TJX Companies Inc.,Consumer Discretionary,Large Cap
+COF,NYSE,Capital One Financial Corp.,Financial Services,Large Cap
+AON,NYSE,Aon plc,Financial Services,Large Cap
+ICE,NYSE,Intercontinental Exchange,Financial Services,Large Cap
+SO,NYSE,Southern Company,Utilities,Large Cap
+DUK,NYSE,Duke Energy Corporation,Utilities,Large Cap
+D,NYSE,Dominion Energy Inc.,Utilities,Large Cap
+NSC,NYSE,Norfolk Southern Corporation,Industrials,Large Cap
+EOG,NYSE,EOG Resources Inc.,Energy,Large Cap
+SLB,NYSE,Schlumberger Limited,Energy,Large Cap
+COP,NYSE,ConocoPhillips,Energy,Large Cap
+PSX,NYSE,Phillips 66,Energy,Large Cap
+VLO,NYSE,Valero Energy Corporation,Energy,Large Cap
+MPC,NYSE,Marathon Petroleum Corp.,Energy,Large Cap 
