@@ -19,6 +19,46 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+import streamlit as st
+import yfinance as yf
+import plotly.graph_objs as go
+
+st.title("📈 Stock Ticker Search")
+
+# Input from user
+ticker = st.text_input("Enter a stock ticker symbol (e.g., AAPL, TSLA, NVDA):", "AAPL")
+
+if ticker:
+    try:
+        stock = yf.Ticker(ticker)
+
+        st.header(f"{stock.info['longName']} ({ticker.upper()})")
+        st.write(f"**Sector**: {stock.info.get('sector', 'N/A')}")
+        st.write(f"**Industry**: {stock.info.get('industry', 'N/A')}")
+        st.write(f"**Market Cap**: ${stock.info.get('marketCap', 0):,}")
+        st.write(f"**PE Ratio (TTM)**: {stock.info.get('trailingPE', 'N/A')}")
+
+        st.subheader("📊 Price History")
+        hist = stock.history(period="6mo")
+        fig = go.Figure()
+        fig.add_trace(go.Scatter(x=hist.index, y=hist['Close'], name='Close'))
+        fig.update_layout(title='Stock Closing Price Over Last 6 Months', xaxis_title='Date', yaxis_title='Price ($)')
+        st.plotly_chart(fig)
+
+        st.subheader("🔍 Summary")
+        st.write(stock.info.get("longBusinessSummary", "No summary available."))
+
+    except Exception as e:
+        st.error(f"Error fetching data for {ticker.upper()}: {str(e)}")
+from newsapi import NewsApiClient
+import os
+
+newsapi = NewsApiClient(api_key=os.getenv("NEWS_API_KEY"))
+
+news = newsapi.get_everything(q=ticker, sort_by='relevancy', language='en', page_size=5)
+st.subheader("📰 Recent News")
+for article in news['articles']:
+    st.markdown(f"- [{article['title']}]({article['url']})")
 
 # Initialize components
 @st.cache_resource
