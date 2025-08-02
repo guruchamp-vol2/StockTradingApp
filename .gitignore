@@ -2,3 +2,6 @@
 .env
 .lib
 .venv
+venv/
+__pycache__/
+*.pyc
